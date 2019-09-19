@@ -129,34 +129,30 @@ table {
 
 body{
 
-  background-image: url("/img/back.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
+  background-image: linear-gradient(#1D1D1D, #8C8C8C );
+  height: 100vh;
+  overflow: hidden;
   
 }
 
 .fas{
-            color:rgb(8, 125, 172);
-            font-size:2.5rem;
-            /* margin-top:5%; */
-            position:relative;
-            right:50px;
-            bottom:20px;
-          
-          }
+  color:rgb(8, 125, 172);
+  font-size:3.5rem;
+  /* margin-top:5%; */
+  /* position:relative;
+  right:50px;
+  bottom:20px; */
 
+}
 
 .navbar {
   display:flex;
   justify-content: center;
   align-items: center;
   color: white;
-  margin:0 auto;
+  /* margin:0 auto; */
   width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   margin-top:1%;
   
 }
@@ -167,21 +163,14 @@ body{
   color:rgba(255, 255, 255, 0.7);
   font-weight: 700;
   
+  
+  
 }
 .navbar a:hover {
   
-  
-  border-bottom: 2px solid rgb(8, 125, 172);
-  transition: .5s;
-  
-  
+  font-size: 1.6rem;
+}
 
-}
-.navbar a:nth-child(7):hover{
-  color:rgba(238, 234, 234, 0.993);
-  transition: .6s;
-  background-color:rgb(8, 125, 172);
-}
 
 
 .navbar a:nth-child(2) {
@@ -201,17 +190,15 @@ body{
   font-weight: 700;
 }
 .navbar a:nth-child(6) {
-      font-size:1.2rem;
-      font-weight: 700;
-    }
-.navbar a:nth-child(7) {
-  margin-top:.3%;
   font-size:1.2rem;
-  border: 4px solid rgb(21, 112, 148);
-  padding: .7% 2%;
-  border-radius:10px;
+  font-weight: 700;
 }
-
+.navbar a:hover {
+  
+  font-size: 1.4rem;
+  color:rgb(8, 125, 172);
+  transition: .5s;
+}
 a{
   text-decoration: none;
 }
@@ -222,109 +209,36 @@ a:active{
   text-decoration: none;
 }
 
-.contact-info{
-      width:30%;
-      margin:0 auto;
-      color:rgba(255, 255, 255, 0.623);
-      text-align: center;
-      margin-top:50px;
-      transition: all 4s ease-in-out;
-      
+.contact{
+  color:white;
+  text-align: center;
+  margin-top:5%;
 }
-form{ 
-      transition: all 4s ease-in-out;
-      
-      display:flex;
-      flex-direction: column;
-      width:30%;
-      margin: 0 auto;
-      margin-top:5%;
-      
+h2{
+  font-size:3rem;
+  margin-bottom: 4%;
 }
-.contact-info h1{
-      font-size:2.5rem;
-      line-height: 50px;
-      
+h4{
+  font-size:2rem;
+  margin-bottom: 2%;
 }
-.contact-info h2{
-      font-size:1.5rem;
+p{
+  font-size:1.2rem;
+  margin-bottom: 4%;
 }
-.form-control{
-      background-color:transparent;
-      border:none;
-      outline: none;
-      border-bottom: 2px solid rgba(83, 83, 83, 0.596);
-      margin-bottom:16px;
-      font-size:1.1rem;
-      font-weight:400;
-      color:rgba(1, 35, 70, 0.918)
-      
-}
-.form-control::placeholder{
-      
-      color:rgba(218, 214, 214, 0.808);
-      text-align: center;
-}
-
-input{
-      height:25px;
-}
-.submit{
-      background:cornflowerblue;
-      color:rgba(218, 214, 214, 0.808);
-      border-color:transparent;
-      letter-spacing: 1px;
-}
-.submit:hover{
-      background:rgba(218, 214, 214, 0.808);
-      color:cornflowerblue;
-      border-color:transparent;
-      letter-spacing: 3px;
-      transition: .4s;
-
-}
-.submit:active{
-     border:3px solid rgb(33, 50, 82);
-      
-}
-.fullcontain{
-      display:flex;
-}
-.form-message{
-      background-color:transparent;
-      border:none;
-      outline: none;
-      border-bottom: 2px solid rgba(83, 83, 83, 0.596);
-      margin-bottom:16px;
-      font-size:1.1rem;
-      font-weight:400;
-      color:rgba(2, 39, 77, 0.911);
-}
-.form-message::placeholder{
-      text-align: center;
-      color:rgba(235, 238, 240, 0.644)
-}
-
-.contact2{
-      text-align: right;
-      position:relative;
-      left:100px;
-      color:rgba(146, 142, 142, 0.705);
-}
-.contact2 h3{
-    font-size:1.9rem;
-}
-.contact2 p{
-      font-size:1.4rem;
-      color:rgb(8, 125, 172);
-      margin-bottom:14%;
-      font-weight: 600;
+a{
+  
+  font-size:1.5rem;
   }
-  .contact-info{
-        position:relative;
-        bottom:70px;
+  a{
+    text-decoration: none;
+    color:white;
   }
-  #contact-form{
-      position:relative;
-      bottom:70px;
-}
+  a:visited{
+    text-decoration: none;
+    color:white;
+  }
+  a:active{
+    text-decoration: none;
+    color:white;
+  }

@@ -130,21 +130,24 @@ table {
 body{
 
   background-image: url("/img/back.jpg");
+  min-height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  min-width:1000px;
+  overflow: hidden;
  
   
 }
 
 .fas{
   color:rgb(8, 125, 172);
-  font-size:2.5rem;
+  font-size:3.5rem;
   /* margin-top:5%; */
-  position:relative;
+  /* position:relative;
   right:50px;
-  bottom:20px;
+  bottom:20px; */
 
 }
 
@@ -153,9 +156,9 @@ body{
   justify-content: center;
   align-items: center;
   color: white;
-  margin:0 auto;
+  /* margin:0 auto; */
   width: 100%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   margin-top:1%;
   
 }
@@ -166,21 +169,14 @@ body{
   color:rgba(255, 255, 255, 0.7);
   font-weight: 700;
   
+  
+  
 }
 .navbar a:hover {
   
-  
-  border-bottom: 2px solid rgb(8, 125, 172);
-  transition: .5s;
-  
-  
+  font-size: 1.6rem;
+}
 
-}
-.navbar a:nth-child(7):hover{
-  color:rgba(238, 234, 234, 0.993);
-  transition: .6s;
-  background-color:rgb(8, 125, 172);
-}
 
 
 .navbar a:nth-child(2) {
@@ -203,13 +199,13 @@ body{
   font-size:1.2rem;
   font-weight: 700;
 }
-.navbar a:nth-child(7) {
-  margin-top:.3%;
-  font-size:1.2rem;
-  border: 4px solid rgb(21, 112, 148);
-  padding: .7% 2%;
-  border-radius:10px;
+.navbar a:hover {
+  
+  font-size: 1.4rem;
+  color:rgb(8, 125, 172);
+  transition: .5s;
 }
+
 /* @media only screen and (max-width: 1050px) {
   .navbar {
     
@@ -219,27 +215,30 @@ body{
   
 } */
 
-.dev{
-  color:rgba(255, 255, 255, 0.671);
-  font-size:4rem;
-  margin: 0 auto;
+.devbuttons{
+  width:40%;
+  margin:10% auto;
   text-align: center;
-  margin-top:5%;
 }
-.buttons{
-  width: 40%;
-  margin:0 auto;
-  margin-top:3%;
-  position:relative;
-  left: 6%;
+.dev{
+  color:white;
+  font-size: 4rem;
+  margin-bottom:5%;
   
+
+}
+
+.buttons{
+  display:flex;
+  justify-content: space-around;
+
 }
 
 button{
 width:160px;
 height: 34px;
 border-radius:10px;
-margin-right:8%;
+/* margin-right:8%; */
 background-color: rgba(255, 255, 255, 0.01);
 color:rgb(255, 255, 255);
 font-size:1.05rem;
@@ -248,7 +247,7 @@ border:2px solid white;
 }
 
 button:hover{
-  background-color:rgb(8, 125, 172);
+  background-color:rgb(8, 125, 172);;
   color:rgb(255, 255, 255);
   transition: .6s;
 }

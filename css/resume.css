@@ -83,20 +83,7 @@ img{
       font-size:1.2rem;
       font-weight: 700;
     }
-    .navbar a:hover {
-      
-      
-      color:rgb(24, 25, 26);
-      border-bottom: 2px solid rgb(8, 125, 172);
-      transition: .5s;
-      
-     
-    }
-    .navbar a:nth-child(6):hover{
-      color:rgb(235, 241, 243);
-      transition: .6s;
-      background-color:rgb(8, 125, 172);
-    }
+    
     
     
     .navbar a:nth-child(2) {
@@ -120,6 +107,13 @@ img{
       border: 4px solid rgb(63, 144, 177);
       padding: .7% 2%;
       border-radius:10px;
+    }
+    .navbar a:hover {
+  
+      font-size: 1.4rem;
+      color:rgb(169, 175, 177);
+      transition: .5s;
+      
     }
     
     a{
